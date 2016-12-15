@@ -1,4 +1,4 @@
-package com.tangzhixiong.chruncher;
+package com.tangzhixiong.cruncher;
 
 import java.io.*;
 
@@ -6,8 +6,8 @@ public class Main {
     public static void main(String[] args) {
         if (args.length < 1) {
             System.err.println("Usage:");
-            System.err.println("    java -jar chruncher.jar <INPUT_FILE>");
-            System.err.println("    java -jar chruncher.jar <INPUT_FILE> <OUTPUT_FILE>");
+            System.err.println("    java -jar cruncher.jar <INPUT_FILE>");
+            System.err.println("    java -jar cruncher.jar <INPUT_FILE> <OUTPUT_FILE>");
             System.exit(1);
         }
         String inputPath = args[0];
